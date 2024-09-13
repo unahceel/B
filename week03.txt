@@ -1,6 +1,4 @@
 2주차 수업내용
 -리눅스 기초 명령
-ls, cat, touch ...
-
+cd ..
 -깃 기초 명령
-status, init, add, commit, log, push ...
