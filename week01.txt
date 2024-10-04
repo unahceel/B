@@ -2,3 +2,17 @@
 -오리엔테이션
 -교재/교수 소개
 -주차별 수업 계획
+package main
+
+import "fmt"
+
+func main() {
+	c1 := 'z'
+	c2 := '김'
+
+	fmt.Println("value i : %d, value f : %f\n", i, f)
+	fmt.printf("%d * %f = %f\n", i, f, float64(i)*f)
+	fmt.println(c1, c2) // 10진수 출력
+	fmt.Printf("%x\n", c2) //유니코드 '김' 에 대한 16진수 출력, UNICODE
+	fmt.println(reflect.Typeof(f), reflect.Typeof(i), reflect.Typeof(c1), reflect.Typeof(c2))
+}
